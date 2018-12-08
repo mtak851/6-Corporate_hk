@@ -1,1 +1,19 @@
-﻿
+﻿{
+  "id": "5c951c0a-3e91-436a-81ae-59ede453672c",
+  "createdDateTimeUTC": "2018-12-08T09:00:00.000Z",
+  "lastModifiedDateTimeUTC": "2018-12-08T09:00:05.000Z",
+  "title": "Growing in the garden",
+  "status": "draft",
+  "content": [
+    "https://youtube.com/123",
+    "https://coolwebsite"
+  ],
+  "categoryTags": [
+    "age11to13",
+    "projectOriented",
+    "garden",
+    "robots"
+  ],
+  "qualityRatingPoints": 150,
+  "topicRatingPoints": 45 
+}

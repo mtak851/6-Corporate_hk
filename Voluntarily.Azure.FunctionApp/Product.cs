@@ -8,7 +8,7 @@ using Microsoft.Azure.WebJobs.Host;
 
 namespace Voluntarily.Azure.FunctionApp
 {
-    public static class Function1
+    public static class Product
     {
         [FunctionName("Function1")]
         public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequestMessage req, TraceWriter log)
