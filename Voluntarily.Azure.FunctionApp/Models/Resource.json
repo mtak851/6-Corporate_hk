@@ -1,23 +1,44 @@
 ﻿{
-  "id": "5c951c0a-3e91-436a-81ae-59ede453672c",
-  "createdDateTimeUTC": "2018-12-08T09:00:00.000Z",
-  "lastModifiedDateTimeUTC": "2018-12-08T09:00:05.000Z",
-  "title": "Growing in the garden",
-  "subtitle": "Growing digitally in the garden",
-  "description": "Project to grow something in the garden",
-  "durationMinutes": 15,  
-  "status": "draft",
-  "contentUrls": [
-    "https://youtube.com/123",
-    "https://coolwebsite"
-  ],
-  "categoryTags": {
-  "resourceType": "projectOriented",
-    "topics": [
-      "garden",
-      "robots"
-    ]
-  },
-  "qualityRatingPoints": 150,
-  "topicRatingPoints": 45 
+  "Resources": [
+    {
+      "id": "5c951c0a-3e91-436a-81ae-59ede453672c",
+      "createdDateTimeUTC": "2018-12-08T09:00:00.000Z",
+      "lastModifiedDateTimeUTC": "2018-12-08T09:00:05.000Z",
+      "title": "Hour of Code",
+      "subtitle": "Growing digitally in the garden",
+      "description": "The annual global 'Hour of Code' campaign and Computer Science Education Week is kicking off on in December and we want as many kids in New Zealand to get to take part as possible.",
+      "headerImageBase64Bytes": "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",
+      "duration": "1 day",
+      "provider": "OMGTech",
+      "status": "draft",
+      "contentUrls": [
+        "https://youtube.com/123",
+        "https://coolwebsite"
+      ],
+      "categoryTags": {
+        "resourceTypes": [
+          "people",
+          "resource"
+        ],
+        "languages": [
+          "TeReoMaori",
+          "English"
+        ],
+        "locations": [
+          "Auckland"
+        ],
+        "topics": [
+          "garden",
+          "robots",
+          "coding"
+        ],
+        "ages": [
+          "year12",
+          "year13"
+        ]
+      },
+      "qualityRatingPoints": 150,
+      "topicRatingPoints": 45
+    }
+  ]
 }
