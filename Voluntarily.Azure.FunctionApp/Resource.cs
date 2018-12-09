@@ -17,13 +17,13 @@ namespace Voluntarily.Azure.FunctionApp
             log.Info("C# HTTP trigger function processed a request.");
 
             // Parse query parameter.
-            string name = req.GetQueryNameValuePairs()
+            var name = req.GetQueryNameValuePairs()
                 .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
                 .Value;
 
             // Return dummy json from a file.
-            string file = System.IO.File.ReadAllText(@".\Models\Resource.json");
-            object json = JsonConvert.DeserializeObject(file);
+            var file = System.IO.File.ReadAllText(@".\Models\Resource.json");
+            var json = JsonConvert.DeserializeObject(file);
 
             return req.CreateResponse(HttpStatusCode.OK, json);
         }
