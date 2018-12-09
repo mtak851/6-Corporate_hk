@@ -1,0 +1,24 @@
+﻿{
+  "Person": 
+    {
+      "id": "57DA14B1-744F-4C31-816F-8661CE80874B",
+      "FistName": "Miho",
+      "LastName": "Takamoto",
+      "Description": "Description",
+      "Photo": "Photo",
+      "Organisation": "OrganisatinName",
+      "Role": "Role",
+      "Email": "mihomihomiho0819@gmail.com",
+      "Phone": "0221377980",
+      "Skills" :
+      {
+        "Skill1": "skill1",
+        "Skill2": "skill2"
+
+      },
+        
+      "Hash": "oV9bHPrAp252aiLRDZfC0cXmsVuR5RI0IQ==",
+      "Salt": "932eecaa76d253a498d36729b61fbaa6aef84612e2f9c00555519baea95504f0"
+    }
+  
+}
